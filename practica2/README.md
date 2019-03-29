@@ -1,5 +1,10 @@
 # Práctica 2: Clonar la información de un sitio web
 
+Integrantes del grupo:
+
+- Jorge Palma Ramirez
+- Luis Liñán Villafranca
+
 En esta práctica se desarrollará un método de clonado automático de datos entre
 máquinas virtuales.
 

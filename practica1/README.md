@@ -1,5 +1,10 @@
 # Práctica 1: Preparación de las herramientas
 
+Integrantes del grupo:
+
+- Jorge Palma Ramirez
+- Luis Liñán Villafranca
+
 Tras la instalación y configuración de las dos máquinas virtuales y sus
 sistemas operativos correspondientes, procedo a la experimentación de conexión
 entre las máquinas y el host.
