@@ -45,6 +45,21 @@ server {
 }
 ```
 
+Cabe destacar la importancia de comentar la línea siguiente en el archivo
+`/etc/nginx/nginx.conf` para que todo funcione correctamente:
+
+```nginx
+...
+#include /etc/nginx/sites-enabled/*;
+...
+```
+
+Nos aseguramos que no hay ningun usuario utilizando el puerto 80 con el comando:
+
+```sh
+sudo fuser -k 80/tcp
+```
+
 Lo ejecutamos con el siguiente comando para ver que todo está correctamente
 configurado:
 
@@ -168,7 +183,7 @@ Y volvemos a probar con el comando cURL:
 Por ultimo pasaremos a someter el servidor a una alta carga mediante **Apache
 Benchmark** (ab) como en el caso anterior de *nginx*.
 
-```
+```sh
 ab -n 1000 -c 10 http://192.168.213.131/index_propio.html
 ```
 
