@@ -262,7 +262,23 @@ sudo systemctl start heartbeat
 sudo systemctl enable heartbeat
 ```
 
-### Referencias
+### Demo
+
+Aquí podemos ver el servidor activo funcionando correctamente:
+
+![](./img/heartbeat-active-on.png)
+
+Observamos que el balanceador activo tiene 2 ip's, la `ip` de la máquina, y la
+`ip` secundaria (`ServiceIP`).
+
+Aquí una vez apagado el balanceador activo:
+
+![](./img/heartbeat-active-off.png)
+
+En esta segunda imagen vemos que la `ServiceIp` se ha pasado a la máquina
+pasiva.
+
+## Referencias
 
 - [Heartbeat](http://linux-ha.org/wiki/Heartbeat)
 
