@@ -1,10 +1,10 @@
 # HeartBeat
 
-[Francisco Javier Perez Heredia](github.com/FranJPerez)
+[Francisco Javier Perez Heredia](https://github.com/FranJPerez)
 
-[Jorge Palma Ramirez](github.com/PepeWalker)
+[Jorge Palma Ramirez](https://github.com/PepeWalker)
 
-[Luis Liñán Villafranca](github.com/lulivi)
+[Luis Liñán Villafranca](https://github.com/lulivi)
 
 ## Introducción
 
