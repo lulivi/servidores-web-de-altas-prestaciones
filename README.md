@@ -1,6 +1,6 @@
 # Sistemas Web de Altas Prestaciones
 
-En este repositorio se pueden encontrar los recursos pedidos en las practicas 
+En este repositorio se pueden encontrar los recursos pedidos en las prácticas 
 de la asignatura.
 
 ## Integrantes del grupo
